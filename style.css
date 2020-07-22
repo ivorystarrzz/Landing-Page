@@ -1,0 +1,138 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: url('https://blog.bonus.ly/hubfs/turnover_recognition_featured.png');
+    background-color: rgba(0, 0, 0, 0.7);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+
+
+.pic-container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.pic {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pic-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #1b1b1b;
+    opacity: 0.5;
+}
+
+
+
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.logo{
+    letter-spacing: 1px;
+    float: left;
+    color: #fff;
+    font-size: 22px;
+    line-height: 80px;
+    padding: 0 6em;
+}
+
+.menu{
+    float: right;
+    line-height: 50px;
+    margin: 0 6em;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+ul li:nth-child(5) a {
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header h1{
+    color: #fff;
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    letter-spacing: 10px;
+}
+
+.header p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.header button{
+    color: #fff;
+    background: #009f8b;
+    padding: 12px 32px;
+    border: none;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+a{
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+
+
