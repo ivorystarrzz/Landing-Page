@@ -1,5 +1,5 @@
 # Landing-Page
 
-A landing page for a staffing agency created with HTML and CSS
+A Landing page built for a mock staffing agency. Created with HTML and CSS. Implemented media queries to make page responsive
 
 ![](staff.PNG)
